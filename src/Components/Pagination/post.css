@@ -1,0 +1,31 @@
+.posts__container {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+body {
+  background-color: #111;
+  color: #ffff;
+}
+.posts__list {
+  max-width: auto;
+  background: linear-gradient(
+    to right,
+    #111,
+    rgb(94, 87, 87),
+    rgb(94, 87, 87),
+    #111
+  );
+  padding: 20px;
+}
+img {
+  size: 20px;
+  margin-right: 10px;
+}
+
+.list__item {
+  list-style-type: circle;
+  margin-bottom: 10px;
+}
